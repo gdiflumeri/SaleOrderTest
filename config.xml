@@ -2,17 +2,19 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.colsam.saleorder" versionCode="10" version="1.0">
 <name>SALESORDER2</name>
 <gap:plugin name="com.brodysoft.sqliteplugin" />
+<gap:plugin name="io.github.pwlin.cordova.plugins.fileopener2" />
 <gap:platform name="android" />
 <gap:platform name="ios" />
 <gap:platform name="winphone" />
 <icon src="icon.png" />
 <gap:splash src="splash.png" />
 <gap:plugin name="com.phonegap.plugins.barcodescanner" />
+<gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
 <gap:plugin name="nl.x-services.plugins.calendar" />
 <preference name="phonegap-version" value="3.6.3" />
 <gap:plugin name="com.phonegap.plugin.statusbar" />
 <preference name="StatusBarOverlaysWebView" value="false" />
-<preference name="splash-screen-duration" value="10000" />
+<preference name="SplashScreenDelay" value="20000" />
 <preference name="auto-hide-splash-screen" value="false" />
 <feature name="http://api.phonegap.com/1.0/battery"/>
 <feature name="http://api.phonegap.com/1.0/camera"/>
